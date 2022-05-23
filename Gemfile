@@ -78,3 +78,5 @@ gem 'devise'
 gem 'hirb'
 
 gem 'cancancan'
+
+gem 'sassc-rails'

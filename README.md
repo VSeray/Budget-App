@@ -8,6 +8,7 @@ The Budget app is a mobile web application where you can manage your budget: you
 - Ruby on Rails
 - Postgresql
 - Bootstrap
+
 ## Live
 [Budget App](https://vana-seraydarian.herokuapp.com/)
 
@@ -81,4 +82,5 @@ Contributions, issues, and feature requests are welcome!
 ## Acknowledgments
 
 - Microverse for giving us this chance
+- My morning session and coding partners
 - Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).

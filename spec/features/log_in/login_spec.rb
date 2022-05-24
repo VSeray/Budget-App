@@ -16,7 +16,6 @@ RSpec.feature 'Login', type: :feature do
     expect(page).to have_content 'Invalid Email or password.'
   end
 
-
   it 'Login successfully' do
     User.create(name: 'Testing', email: 'user@example.com', password: 'password')
     visit user_session_path

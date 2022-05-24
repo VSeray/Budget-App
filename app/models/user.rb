@@ -9,7 +9,7 @@ class User < ApplicationRecord
   has_many :money_tracks, dependent: :destroy
 
   validates :name, presence: true, length: { minimum: 5 }
-  
+
   private
 
   def set_role

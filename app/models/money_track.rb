@@ -1,6 +1,6 @@
 class MoneyTrack < ApplicationRecord
   belongs_to :user
-  has_many :money_group, dependent: destroy
+  has_many :money_groups, dependent: :destroy
   has_many :groups, through: :money_groups, dependent: :destroy
 
   validates :name, presence: true, length: { minimum: 3 }
